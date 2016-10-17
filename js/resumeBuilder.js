@@ -11,5 +11,13 @@ This is empty on purpose! Your code to build the resume will go here.
  var newEmail = email.replace("gmail", "elium.academy");
  console.log(newEmail); 
 
+//var = test1;
+var formattedName = HTMLheaderName.replace("%data%",vlada);
+$("#header").append("formattedName");
+
+var role = "developer";
+var formattedRole = HTMLheaderRole.replace("%data%",role);
+$("#header").prepend("formattedName");
+$("#header").prepend("formattedRole");
 
 
